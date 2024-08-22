@@ -67,87 +67,87 @@ const Shop = () => {
             <li>
             
             <br /> <br />
-                 <img src="/public/hf.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/hf.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}>High Fashion</p> 
                 <p className="price">$9000</p>
             </li>
             <li>
             <br /> <br />
-                <img src="/public/green joggers.JPG" style={productsImages}></img>  
+                <img src="/Xpressionstore/green joggers.JPG" style={productsImages}></img>  
                 <p className="productName" style={{fontSize: '13.8px'}}>Joggers</p>
                 <p className="price">$6000</p>
             </li>
             <li>
             <br /> <br />
-                 <img src="/public/armless.JPG" style={productsImages}></img>
+                 <img src="/Xpressionstore/armless.JPG" style={productsImages}></img>
                 <p className="productName" style={{fontSize: '13.8px'}}>Armless</p>
                 <p className="price">$2000</p>
             </li>
             <li>
             <br /> <br />
-                 <img src="/public/white vintage.JPG" style={productsImages}></img>  
+                 <img src="/Xpressionstore/white vintage.JPG" style={productsImages}></img>  
                 <p className="productName" style={{fontSize: '13.8px'}}>Vintage</p>
                 <p className="price">$1000</p>
             </li>
             <li>
                 <br/> <br />
-                <img src="/public/jeans up and down.JPG" style={productsImages}></img> 
+                <img src="/Xpressionstore/jeans up and down.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}>Zipper jeans</p>
                 <p className="price">$3000</p>
             </li>
             <li>
                 <br/> <br />
-                 <img src="/public/TTIO8506.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/TTIO8506.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}>Two Piece</p>
                 <p className="price">$9000</p>
             </li>
             <li>
                 <br/> <br />
-                 <img src="/public/PGGY2062.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/PGGY2062.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}> Chrome Combat Short</p>
                 <p className="price">$4000</p>
             </li>
             <li>
                 <br/> <br />
-                <img src="/public/LXLK6631.JPG" style={productsImages}></img> 
+                <img src="/Xpressionstore/LXLK6631.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}>High Quality Stylish</p>
                 <p className="price">$3000</p>
             </li>
             <li>
                 <br/> <br />
-                <img src="/public/KVJJ2447.JPG" style={productsImages}></img> 
+                <img src="/Xpressionstore/KVJJ2447.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}>Zipper Joggers</p>
                 <p className="price">$8000</p>
             </li>
             <li>
                 <br/> <br />
-                 <img src="/public/women jeans.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/women jeans.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}>Chrome Combat jeans</p>
                 <p className="price">$2000</p>
             </li>
             <li>
                 <br/> <br />
-                <img src="/public/black armless.JPG" style={productsImages}></img> 
+                <img src="/Xpressionstore/black armless.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13.8px'}}>Two Piece</p>
                 <p className="price">$9000</p>
             </li>
             <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/pink crocs.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/pink crocs.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Crocs</p>
                 <p className="price">$800</p>
                 </Link>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/loaffers.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/loaffers.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Loafers</p>
                 <p className="price">$600</p>
                 </Link>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/monk strap.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/monk strap.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Monk Strap</p>
                 <p className="price">$400</p>
                 </Link>

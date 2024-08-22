@@ -73,18 +73,18 @@ const Home = () => {
     const [run, setRun] = useState(0); // reviews
 
 //products
-   const images = [{image: '/public/blue cargo pant.JPG', text: 'Zipper Leather Pant'}, 
-    {image: '/public/jeans multi pocket.JPG', text: 'Chrome Combat'}, 
-    {image: '/public/jeans up and down.JPG', text: 'High Quality Double '}, 
-    {image: '/public/hf.JPG', text: 'High Fashion '}, 
-    {image: '/public/swag.JPG', text: 'Double Stitched Chrome Pant'}, 
-    {image: '/public/up and down.JPG', text: 'Quality Highfashion Two Pieces'} 
+   const images = [{image: '/Xpressionstore/blue cargo pant.JPG', text: 'Zipper Leather Pant'}, 
+    {image: '/Xpressionstore/jeans multi pocket.JPG', text: 'Chrome Combat'}, 
+    {image: '/Xpressionstore/jeans up and down.JPG', text: 'High Quality Double '}, 
+    {image: '/Xpressionstore/hf.JPG', text: 'High Fashion '}, 
+    {image: '/Xpressionstore/swag.JPG', text: 'Double Stitched Chrome Pant'}, 
+    {image: '/Xpressionstore/up and down.JPG', text: 'Quality Highfashion Two Pieces'} 
 ];
 
 //reviews
-const clients = [{pic: '/public/Canadian.JPG', text: 'First time patronizing this brand and I dont regret it' },
-{pic: '/public/Baddie 2.JPG', text: 'I got exactly what I ordered'},
-{pic: '/public/baddie.JPG', text: 'I love this brand, very friendly'}
+const clients = [{pic: '/Xpressionstore/Canadian.JPG', text: 'First time patronizing this brand and I dont regret it' },
+{pic: '/Xpressionstore/Baddie 2.JPG', text: 'I got exactly what I ordered'},
+{pic: '/Xpressionstore/baddie.JPG', text: 'I love this brand, very friendly'}
 ];
 
 useEffect (() => {
@@ -101,37 +101,37 @@ useEffect (() => {
 
    const products = [
     { id: 1,
-     image: '/public/leather skirt.JPG',
+     image: '/Xpressionstore/leather skirt.JPG',
      name:'Leather Skirt', 
      desc:'High quality leather skirt up and down. Best suitable for all occassions such as: dinner date, house party, etc', 
      price: '$200'
     },
     { id: 2, 
-     image: '/public/jeans jacket.JPG', 
+     image: '/Xpressionstore/jeans jacket.JPG', 
      name:'Jeans Jacket',
      desc:'Jeans jacket, also available in black color... Get the best out of Xpression wears in this nice jacket', 
      price: '$600'
     },
     { id: 3, 
-      image: '/public/Blue hoodie.JPG',  
+      image: '/Xpressionstore/Blue hoodie.JPG',  
       name:'Blue Hoodie', 
       desc:'Feeling cold? Try out this luxury high quality hoodie for all cold season; keeps you warm and cozy', 
       price: '$250'
     },
     { id: 4, 
-      image: '/public/mickey mouse.JPG', 
+      image: '/Xpressionstore/mickey mouse.JPG', 
       name:'Vintage', 
       desc: 'Vintage shirt for your casual outing', 
       price: '$200'
     },
     { id: 5, 
-      image: '/public/short.JPG',  
+      image: '/Xpressionstore/short.JPG',  
       name:'Chrombat short', 
       desc: 'Our chrombat pants don\'t just come in long pairs but also in short design ', 
       price: '$600'
     },
     { id: 6, 
-      image: '/public/brown jacket.JPG', 
+      image: '/Xpressionstore/brown jacket.JPG', 
       name:'Brown Jacket', 
       desc: 'You love brown? then this is for you... made out of the best jeans materials in the world', 
       price: '$300'
@@ -173,80 +173,80 @@ useEffect (() => {
             <li>
             <h4>Popular Products</h4>
             <br /> 
-                <Link to="/shop" className='link'> <img src="/public/hf.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className='link'> <img src="/Xpressionstore/hf.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>High Fashion</p> 
                 <p className="price">$9000</p>
-                <AddToCartButton onClick={() => addToCart("/public/hf.JPG")} >Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/hf.JPG")} >Add to cart</AddToCartButton>
             </li>
             <li>
             <br /> <br />
-                <Link to="/shop" className='link'> <img src="/public/green joggers.JPG" style={productsImages}></img>  </Link>
+                <Link to="/shop" className='link'> <img src="/Xpressionstore/green joggers.JPG" style={productsImages}></img>  </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Joggers</p>
                 <p className="price">$6000</p>
-               <AddToCartButton onClick={() => addToCart("/public/green joggers.JPG")} >Add to cart</AddToCartButton>
+               <AddToCartButton onClick={() => addToCart("/Xpressionstore/green joggers.JPG")} >Add to cart</AddToCartButton>
             </li>
             <li>
             <br /> <br />
-                <Link to="/shop" className='link'> <img src="/public/armless.JPG" style={productsImages}></img>  </Link>
+                <Link to="/shop" className='link'> <img src="/Xpressionstore/armless.JPG" style={productsImages}></img>  </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Armless</p>
                 <p className="price">$2000</p>
-                <AddToCartButton onClick={() => addToCart("/public/armless.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/armless.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
             <br /> <br />
-                <Link to="/shop" className='link'> <img src="/public/white vintage.JPG" style={productsImages}></img>  </Link>
+                <Link to="/shop" className='link'> <img src="/Xpressionstore/white vintage.JPG" style={productsImages}></img>  </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Vintage</p>
                 <p className="price">$1000</p>
-                <AddToCartButton onClick={() => addToCart("/public/white vintage.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/white vintage.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/public/jeans up and down.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className="link "> <img src="/Xpressionstore/jeans up and down.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Zipper jeans</p>
                 <p className="price">$3000</p>
-                <AddToCartButton onClick={() => addToCart("/public/jeans up and down.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/jeans up and down.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/public/TTIO8506.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className="link "> <img src="/Xpressionstore/TTIO8506.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Two Piece</p>
                 <p className="price">$9000</p>
-                <AddToCartButton onClick={() => addToCart("/public/TTIO8506.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/TTIO8506.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/public/PGGY2062.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className="link "> <img src="/Xpressionstore/PGGY2062.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}> Chrome Combat Short</p>
                 <p className="price">$4000</p>
-                <AddToCartButton onClick={() => addToCart("/public/PGGY2062.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/PGGY2062.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/public/LXLK6631.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className="link "> <img src="/Xpressionstore/LXLK6631.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>High Quality Stylish</p>
                 <p className="price">$3000</p>
-                <AddToCartButton onClick={() => addToCart("/public/LXLK6631.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/LXLK6631.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/public/KVJJ2447.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className="link "> <img src="/Xpressionstore/KVJJ2447.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Zipper Joggers</p>
                 <p className="price">$8000</p>
-                <AddToCartButton onClick={() => addToCart("/public/KVJJ2447.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/KVJJ2447.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/public/women jeans.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className="link "> <img src="/Xpressionstore/women jeans.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Chrome Combat jeans</p>
                 <p className="price">$2000</p>
-                <AddToCartButton onClick={() => addToCart("/public/women jeans.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/women jeans.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/public/black armless.JPG" style={productsImages}></img> </Link>
+                <Link to="/shop" className="link "> <img src="/Xpressionstore/black armless.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Two Piece</p>
                 <p className="price">$9000</p>
-                <AddToCartButton onClick={() => addToCart("/public/black armless.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/black armless.JPG")} > Add to cart</AddToCartButton>
             </li>
             </div>
             </section>  <br /> <br />   <br /> 
@@ -257,19 +257,19 @@ useEffect (() => {
             <h4>Top Sweater Collection</h4> <br /> <br /> 
                 <div className="collections">
             <li>
-             <img src="/public/crochet sweater.WEBP" className='sweater' style={productsImages}></img> 
+             <img src="/Xpressionstore/crochet sweater.WEBP" className='sweater' style={productsImages}></img> 
             <p className="productName" style={{fontSize: '13px'}}>Crochet Sweater </p>
             <p className="productName" style={{fontSize: '13px'}}>Crochet sweater collection just for you</p>
                 <Link to="/shop" className="link ">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
                 </li>
                 <li>
-                 <img src="/public/Blue hoodie.JPG" className="sweater" style={productsImages}></img>  
+                 <img src="/Xpressionstore/Blue hoodie.JPG" className="sweater" style={productsImages}></img>  
                 <p className="productName" style={{fontSize: '13px'}}>Blue Hoodie</p>
                 <p className="productName" style={{fontSize: '13px'}}>Blue hoodie collection, peerfect for gifting </p>
                 <Link to="/shop" className="link">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
                 </li>
                 <li>
-                 <img src="/public/green sweater.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/green sweater.JPG" className="sweater" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Green Sweater</p>
                 <p className="productName" style={{fontSize: '13px'}}>Lovely winter collection just for you </p>
                 <Link to="/shop" className="link ">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
@@ -284,75 +284,75 @@ useEffect (() => {
                 <div className="pants">
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/blue cargo pant.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/blue cargo pant.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Blue Combat Pant</p>
                 <p className="price">$700</p>
-                <AddToCartButton onClick={() => addToCart("/public/blue cargo pant.JPG")} > Add to cart </AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/blue cargo pant.JPG")} > Add to cart </AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/brown cargo.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/brown cargo.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Cargo Pant</p>
                 <p className="price">$6000</p>
-                <AddToCartButton onClick={() => addToCart("/public/brown cargo.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/brown cargo.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/quality combat pant.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/quality combat pant.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Luxury Cobant Pant</p>
                 <p className="price">$3000</p>
-                <AddToCartButton onClick={() => addToCart("/public/quality combat pant.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/quality combat pant.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/slim fit cargo.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/slim fit cargo.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Perfect Fit</p>
                 <p className="price">$1300</p>
-                <AddToCartButton onClick={() => addToCart("/public/slim fit cargo.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/slim fit cargo.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/white rope cargo.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/white rope cargo.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>High Fashion</p>
                 <p className="price">$2500</p>
-                <AddToCartButton onClick={() => addToCart("/public/white rope cargo.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/white rope cargo.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/white jorgas.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/white jorgas.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Jorgas</p>
                 <p className="price">$500</p>
-                <AddToCartButton onClick={() => addToCart("/public/white jorgas.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/white jorgas.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/swag.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/swag.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Two Piece</p>
                 <p className="price">$800</p>
-                <AddToCartButton onClick={() => addToCart("/public/swag.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/swag.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/ash joggers.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/ash joggers.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Zip UP Pant</p>
                 <p className="price">$1000</p>
-                <AddToCartButton onClick={() => addToCart("/public/ash joggers.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/ash joggers.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
                 <Link to="/shop" className="link ">
-                 <img src="/public/blue cargo pant.JPG" className="sweater" style={productsImages}></img> 
+                 <img src="/Xpressionstore/blue cargo pant.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Cargo Pant</p>
                 <p className="price">$1200</p>
-                <AddToCartButton onClick={() => addToCart("/public/blue cargo pant.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/blue cargo pant.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 </div>
             </div>
@@ -363,67 +363,67 @@ useEffect (() => {
                     <li>
                     <h4 >Shoes Collection</h4> <br /> 
                 <Link to="/shop" className="link ">
-                 <img src="/public/High fashion mixed loafers.JPG"  style={productsImages}></img> 
+                 <img src="/Xpressionstore/High fashion mixed loafers.JPG"  style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Mixed Loafers</p>
                 <p className="price">$600</p>
-                <AddToCartButton onClick={() => addToCart("/public/High fashion mixed loafers.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/High fashion mixed loafers.JPG")} > Add to cart</AddToCartButton>
                 </li> 
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/female.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/female.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Jeans Made sandals</p>
                 <p className="price">$100</p>
-                <AddToCartButton onClick={() => addToCart("/public/female.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/female.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/Derby.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/Derby.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Derby</p>
                 <p className="price">$3000</p>
-                <AddToCartButton onClick={() => addToCart("/public/Derby.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/Derby.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/Loafers.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/Loafers.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Loafers</p>
                 <p className="price">$100</p>
-                <AddToCartButton onClick={() => addToCart("/public/Loafers.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/Loafers.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/oxford sshoe.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/oxford sshoe.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>All Black Oxford</p>
                 <p className="price">$2500</p>
-                <AddToCartButton onClick={() => addToCart("/public/oxford sshoe.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/oxford sshoe.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/pink crocs.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/pink crocs.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Crocs</p>
                 <p className="price">$800</p>
-                <AddToCartButton onClick={() => addToCart("/public/pink crocs.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/pink crocs.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/loaffers.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/loaffers.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Loafers</p>
                 <p className="price">$600</p>
-                <AddToCartButton onClick={() => addToCart("/public/loaffers.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/loaffers.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
                 <Link to="/shop" className="link ">
-                 <img src="/public/monk strap.JPG" style={productsImages}></img> 
+                 <img src="/Xpressionstore/monk strap.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Monk Strap</p>
                 <p className="price">$400</p>
-                <AddToCartButton onClick={() => addToCart("/public/monk strap.JPG")} > Add to cart</AddToCartButton>
+                <AddToCartButton onClick={() => addToCart("/Xpressionstore/monk strap.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 </div>
             </section>
@@ -472,7 +472,7 @@ useEffect (() => {
             <h3 className="bank">UBA</h3>
             <div className="details">
             <div className="side">
-              <img src='/public/chip.JPG' style={{width:'30px', height:'auto'}} />
+              <img src='/Xpressionstore/chip.JPG' style={{width:'30px', height:'auto'}} />
               <h5 className="card-numbers">0000 0000 0000 </h5>
               <span className="validity">Valid</span>  <span className="validity">10/40</span> <br />
               <span className="name validity">Jhon Doe</span>
